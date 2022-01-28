@@ -1,5 +1,5 @@
 {% set name = "OpenFisca-France" %}
-{% set version = "103.0.0" %}
+{% set version = "104.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/OpenFisca-France-{{ version }}.tar.gz
-  sha256: 52aeb8e431d217b00412db0adf32a1fc94912b1a6acd85460692e1653a0254dd
+  sha256: f31919755af26e47b44b472faa6554b1533cc63f96715bb9a65c9c35b4ef3b08
 
 build:
   noarch: python
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -63,7 +63,7 @@ about:
   license_family: AGPL
   license: AGPL-3.0-only
   license_file: LICENSE
-  summary: "French tax and benefit system for OpenFisca"
+  summary: French tax and benefit system for OpenFisca
   description: |
     OpenFisca is a versatile microsimulation free software.
     This repository contains the OpenFisca model of the French tax and benefit system.
