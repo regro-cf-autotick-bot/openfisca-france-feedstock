@@ -1,5 +1,5 @@
 {% set name = "OpenFisca-France" %}
-{% set version = "116.6.1" %}
+{% set version = "116.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/OpenFisca-France-{{ version }}.tar.gz
-  sha256: 0c2b3dbf574933214d2e3ec30d4abf9f2ff1bb02ba683160dc359e3d28131ce8
+  sha256: 2fd6cb1d125ef6e5302da39b66a0cdee40d9cfa55c01d1240a9db50d796a6ac1
 
 build:
   noarch: python
