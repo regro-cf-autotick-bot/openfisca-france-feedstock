@@ -1,11 +1,11 @@
-About openfisca-france
-======================
+About openfisca-france-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openfisca-france-feedstock/blob/main/LICENSE.txt)
 
 Home: https://fr.openfisca.org/
 
 Package license: AGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openfisca-france-feedstock/blob/main/LICENSE.txt)
 
 Summary: French tax and benefit system for OpenFisca
 
